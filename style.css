@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200;1,300&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+.img-tag{
+    height: 80px;
+}
+.nav-bar{
+    background-color: rgb(76, 76, 218);
+    height: 50px;
+    padding-top: 15px;
+    
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar ul li{
+    list-style: none;
+    
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+
+}
+.nav-bar ul li a:hover{
+    color: red;
+}
+.markq{
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+.image-center{
+    margin-top: 17px;
+    display: flex;
+    height: 350px;
+    
+}
+.image-center .first-img{
+    margin-left: 10px;
+    width: 350px;
+}
+.image-center .second-img{
+    width: auto;
+    margin-right: 20px;
+}
+.center-content{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content{
+    width: 50%;
+    word-spacing: 4px;
+}
+.content h2{
+    color: blue;
+    font-weight: 600;
+}
+.para{
+    border: 1px solid blue;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 12px;
+    
+    
+}
+.event-content{
+    width: 50%;
+    
+}
+.event-content h2{
+    color: blue;
+    font-weight: 600;
+}
+.last-content{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.table-container{
+    width: 50%;
+    margin-top: 20px;
+
+    
+}
+.bottom{
+    margin-left: 20px;
+}
+.bottom p{
+    text-align: left;
+}
+.bottom h1{
+    color: rgb(233, 91, 91);
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.bottom-content{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.btn{
+    padding: 8px;
+    color: wheat;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+    /*                about page            */
+
+.aboutcontainer{
+    margin-top: 20px;
+}
+.aboutcontainer img{
+    margin-left: 15%;
+}
+.aboutcontainer p{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*      dept            */
+.department{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    
+
+}
+.imgtag{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.cse{
+    
+    border: 1px solid black;
+    padding: 10px;
+}
+.it{
+    border: 1px solid black;
+    padding: 10px;
+}
+.ece{
+    border: 1px solid black;
+    padding: 10px;
+}
+.eee{
+    border: 1px solid black;
+    padding: 10px;
+}
+.civil{
+    border: 1px solid black;
+    padding: 10px;
+}
+.mech{
+    border: 1px solid black;
+    padding: 10px;
+}
+h3{
+    color: red;
+}
+
+/* facilite        */
+.facilities{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/*    placement */
+.full-content{
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.about-place{
+    background-color: #f2dede;
+    padding: 20px;
+    height: 150px;
+    font-size: 18px;
+    
+}
+.vision{
+    background-color: #dff0d8;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.mision{
+    background-color: #f2dede;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/*         contact        */
+
+.contact{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 30px;
+}
+.same-cont{
+    background-color: rgb(199, 235, 199);
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.pink-cont{
+    background-color: palevioletred;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer{
+    background-color: rgb(59, 59, 224);
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.footer span{
+    color: red;
+}
